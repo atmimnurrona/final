@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component  display the result 1`] = `
+<div
+  className="App"
+>
+  <div>
+    <div>
+      <nav>
+        <ul
+          style={
+            Object {
+              "backgroundColor": "#333",
+              "listStyleType": "none",
+              "margin": 0,
+              "overflow": "hidden",
+              "padding": 0,
+            }
+          }
+        >
+          <li
+            style={
+              Object {
+                "float": "left",
+              }
+            }
+          >
+            <a
+              href="/unit"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "white",
+                  "display": "block",
+                  "padding": "14px 16px",
+                  "textAlign": "center",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Unit Form
+            </a>
+          </li>
+          <li
+            style={
+              Object {
+                "float": "left",
+              }
+            }
+          >
+            <a
+              href="/units"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "white",
+                  "display": "block",
+                  "padding": "14px 16px",
+                  "textAlign": "center",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Unit List
+            </a>
+          </li>
+          <li
+            style={
+              Object {
+                "float": "left",
+              }
+            }
+          >
+            <a
+              href="/items"
+              onClick={[Function]}
+              style={
+                Object {
+                  "color": "white",
+                  "display": "block",
+                  "padding": "14px 16px",
+                  "textAlign": "center",
+                  "textDecoration": "none",
+                }
+              }
+            >
+              Item List
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div>
+      Page not found!
+    </div>
+  </div>
+</div>
+`;
