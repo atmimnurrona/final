@@ -42,6 +42,9 @@ const Row = ({data, onUpdate, number}) => {
                               displayType={'text'}
                               thousandSeparator={true}
                               prefix={'Rp'}/></td>
+
+            <td>{data.approval.transaction.needType.type}</td>
+            <td>{data.approval.transaction.submitter}</td>
             <td>
                 {data.approval.approve ?
                     "APPROVE" : "REJECT"
